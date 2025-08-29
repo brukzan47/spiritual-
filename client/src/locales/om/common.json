@@ -1,0 +1,10 @@
+{
+  "brand": "Spiritualgram",
+  "nav": { "feed": "Feedi", "create": "Uumi", "chat": "Marii", "profile": "Profaayilii", "login": "Seeni", "register": "Galmaa'i", "logout": "Ba'i" },
+  "auth": { "email": "Imeelii", "password": "Jecha Darbii", "username": "Maqaa Fayyadamaa", "login": "Seeni", "register": "Galmaa'i" },
+  "post": { "createTitle": "Eebbicha Qoodi", "caption": "Ibsa gabaabaa", "verse": "Qajeelcha ykn jecha (filannoo)", "chooseMedia": "Suuraa yookiin viidiyoo fili", "post": "Poostii" },
+  "profile": { "title": "Profaayilii Kee", "updateAvatar": "Suuraa Jijjiiri" },
+  "actions": { "like": "Jaalladhu", "comment": "Yaada", "delete": "Haqi", "send": "Ergi", "save": "Kuusi", "cancel": "Dhiisi", "search": "Barbaadi" },
+  "chat": { "conversations": "Mariileen", "newGroup": "Gurmuu Haaraa", "groupTitle": "Maqaa Gurmuu", "openAChat": "Marii banuu", "typeMessage": "Ergaa barreessi…" },
+  "welcome": { "hello": "Baga Nagaan Dhuftan", "signedIn": "Deebi'uun kee gammachiisa!" }
+}

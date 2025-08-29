@@ -1,0 +1,10 @@
+{
+  "brand": "ስፒሪቹዋልግራም",
+  "nav": { "feed": "ፊድ", "create": "ፍጠር", "chat": "ውይይት", "profile": "መገለጫ", "login": "ግባ", "register": "መመዝገብ", "logout": "ውጣ" },
+  "auth": { "email": "ኢሜይል", "password": "የይለፍ ቃል", "username": "የተጠቃሚ ስም", "login": "ግባ", "register": "መመዝገብ" },
+  "post": { "createTitle": "በረከት ተካፈል", "caption": "መግለጫ", "verse": "ጥቅስ ወይም ንግግር (አማራጭ)", "chooseMedia": "ምስል ወይም ቪዲዮ ምረጥ", "post": "ለጥ" },
+  "profile": { "title": "መገለጫዎ", "updateAvatar": "ፎቶ አዘምን" },
+  "actions": { "like": "ወድ", "comment": "አስተያየት", "delete": "ሰርዝ", "send": "ላክ", "save": "አስቀምጥ", "cancel": "ሰርዝ", "search": "ፈልግ" },
+  "chat": { "conversations": "ውይይቶች", "newGroup": "አዲስ ቡድን", "groupTitle": "የቡድን ስም", "openAChat": "ውይይት ክፈት", "typeMessage": "መልዕክት ጻፍ…" },
+  "welcome": { "hello": "እንኳን ደህና መጣህ", "signedIn": "መመለስዎ ደስ ይላል!" }
+}

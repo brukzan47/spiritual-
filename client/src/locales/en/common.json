@@ -1,0 +1,10 @@
+{
+  "brand": "Spiritualgram",
+  "nav": { "feed": "Feed", "create": "Create", "chat": "Chat", "profile": "Profile", "login": "Login", "register": "Sign up", "logout": "Logout" },
+  "auth": { "email": "Email", "password": "Password", "username": "Username", "login": "Login", "register": "Create account" },
+  "post": { "createTitle": "Share a Blessing", "caption": "Caption", "verse": "Verse or quote (optional)", "chooseMedia": "Choose image or video", "post": "Post" },
+  "profile": { "title": "Your Profile", "updateAvatar": "Update Avatar" },
+  "actions": { "like": "Like", "comment": "Comment", "delete": "Delete", "send": "Send", "save": "Save", "cancel": "Cancel", "search": "Search" },
+  "chat": { "conversations": "Conversations", "newGroup": "New group", "groupTitle": "Group title", "openAChat": "Open a conversation", "typeMessage": "Type a message…" },
+  "welcome": { "hello": "Welcome", "signedIn": "Great to see you again!" }
+}
