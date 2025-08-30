@@ -5,7 +5,7 @@ import path from "path";
 import fs from "fs";
 import { fileURLToPath } from "url";
 import mongoose from "mongoose";
-import Post from "../models/post.js";
+import Post from "../models/Post.js";
 import User from "../models/User.js";
 import { authRequired } from "../middleware/auth.js";
 
