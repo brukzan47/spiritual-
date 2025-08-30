@@ -7,7 +7,7 @@ import { fileURLToPath } from "url";
 import mongoose from "mongoose";
 
 import User from "../models/User.js";
-import Post from "../models/Post.js";
+import Post from "../models/post.js";
 import { authRequired } from "../middleware/auth.js";
 
 const router = express.Router();
