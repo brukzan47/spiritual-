@@ -2,7 +2,7 @@ import express from "express";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import Post from "../models/Post.js";
+import Post from "../models/post.js";
 
 const router = express.Router();
 
