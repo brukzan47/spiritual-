@@ -1,6 +1,6 @@
 import express from "express";
 import Comment from "../models/comment.js";
-import Post from "../models/Post.js";
+import Post from "../models/post.js";
 import { authRequired } from "../middleware/auth.js";
 
 const router = express.Router();
