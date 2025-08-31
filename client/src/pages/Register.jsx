@@ -14,13 +14,17 @@ export default function Register() {
   const onSubmit = async (e) => {
     e.preventDefault();
     setErr("");
-    if (!username || !email || !password) {
+    const u = username.trim();
+    const e2 = email.trim();
+    const p = password;
+
+    if (!u || !e2 || !p) {
       setErr("Please fill in username, email, and password.");
       return;
     }
     try {
       setLoading(true);
-      await register({ username, email, password }); // ✅ exact names
+      await register(u, e2, p);   // ✅ important change
       nav("/");
     } catch (e) {
       setErr(e?.response?.data?.error || "Registration failed");
@@ -32,7 +36,7 @@ export default function Register() {
       <h1 className="text-xl font-bold mb-3">Create your account</h1>
       <form onSubmit={onSubmit} className="space-y-3">
         <input className="input" placeholder="Username" value={username} onChange={e=>setUsername(e.target.value)} />
-        <input className="input" placeholder="Email" value={email} onChange={e=>setEmail(e.target.value)} />
+        <input className="input" placeholder="Email" type="email" value={email} onChange={e=>setEmail(e.target.value)} />
         <input className="input" type="password" placeholder="Password" value={password} onChange={e=>setPassword(e.target.value)} />
         {err && <div className="text-sm" style={{ color: "red" }}>{err}</div>}
         <button className="btn w-full" disabled={loading}>{loading ? "Creating…" : "Register"}</button>
